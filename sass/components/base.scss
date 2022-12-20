@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===Body=== */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-dark);
+}
+
+/* ===Section=== */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+/* ===Container=== */
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ===Container-Flex */
+.container__flex {
+    display: flex;
+    align-items: center;
+
+}
