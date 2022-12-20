@@ -104,7 +104,7 @@ header a {
   position: absolute;
   width: 100%;
   height: 4px;
-  top: 71px;
+  top: auto;
   right: 0;
   bottom: 0;
   left: 0;
@@ -133,9 +133,7 @@ header a {
   font-weight: var(--font-weight);
   color: var(--color-main);
 }
-
-.contacts__link:hover,
-.contacts__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--color-hover);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
