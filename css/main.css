@@ -606,7 +606,6 @@ header a {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-
 .btn-close:hover .modal-close-icon {
   fill: var(--color-hover);
 }
@@ -706,7 +705,6 @@ header a {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 .modal-form-checkbox-label::before {
   content: "";
   display: inline-block;
